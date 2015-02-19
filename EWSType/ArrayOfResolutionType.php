@@ -55,7 +55,7 @@ class EWSType_ArrayOfResolutionType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ResolutionType
+     * @var \jamesiarmes\PEWS\Type\ResolutionType
      */
     public $Resolution;
 

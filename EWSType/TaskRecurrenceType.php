@@ -17,7 +17,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AbsoluteMonthlyRecurrencePatternType
+     * @var \jamesiarmes\PEWS\Type\AbsoluteMonthlyRecurrencePatternType
      */
     public $AbsoluteMonthlyRecurrence;
 
@@ -26,7 +26,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_AbsoluteYearlyRecurrencePatternType
+     * @var \jamesiarmes\PEWS\Type\AbsoluteYearlyRecurrencePatternType
      */
     public $AbsoluteYearlyRecurrence;
 
@@ -36,7 +36,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DailyRecurrencePatternType
+     * @var \jamesiarmes\PEWS\Type\DailyRecurrencePatternType
      */
     public $DailyRecurrence;
 
@@ -58,7 +58,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EndDateRecurrenceRangeType
+     * @var \jamesiarmes\PEWS\Type\EndDateRecurrenceRangeType
      */
     public $EndDateRecurrence;
 
@@ -80,7 +80,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NoEndRecurrenceRangeType
+     * @var \jamesiarmes\PEWS\Type\NoEndRecurrenceRangeType
      */
     public $NoEndRecurrence;
 
@@ -93,7 +93,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_NumberedRecurrenceRangeType
+     * @var \jamesiarmes\PEWS\Type\NumberedRecurrenceRangeType
      */
     public $NumberedRecurrence;
 
@@ -103,7 +103,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RelativeMonthlyRecurrencePatternType
+     * @var \jamesiarmes\PEWS\Type\RelativeMonthlyRecurrencePatternType
      */
     public $RelativeMonthlyRecurrence;
 
@@ -112,7 +112,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_RelativeYearlyRecurrencePatternType
+     * @var \jamesiarmes\PEWS\Type\RelativeYearlyRecurrencePatternType
      */
     public $RelativeYearlyRecurrence;
 
@@ -122,7 +122,7 @@ class EWSType_TaskRecurrenceType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_WeeklyRecurrencePatternType
+     * @var \jamesiarmes\PEWS\Type\WeeklyRecurrencePatternType
      */
     public $WeeklyRecurrence;
 

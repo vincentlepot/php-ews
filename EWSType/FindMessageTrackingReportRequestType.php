@@ -47,7 +47,7 @@ class EWSType_FindMessageTrackingReportRequestType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $FederatedDeliveryMailbox;
 
@@ -76,7 +76,7 @@ class EWSType_FindMessageTrackingReportRequestType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $PurportedSender;
 
@@ -85,7 +85,7 @@ class EWSType_FindMessageTrackingReportRequestType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $Recipient;
 
@@ -103,7 +103,7 @@ class EWSType_FindMessageTrackingReportRequestType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $Sender;
 

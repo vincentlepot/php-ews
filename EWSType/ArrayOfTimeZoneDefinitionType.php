@@ -15,7 +15,7 @@ class EWSType_ArrayOfTimeZoneDefinitionType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_TimeZoneDefinitionType
+     * @var \jamesiarmes\PEWS\Type\TimeZoneDefinitionType
      */
     public $TimeZoneDefinition;
 }

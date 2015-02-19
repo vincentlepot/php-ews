@@ -55,7 +55,7 @@ class EWSType_FindMessageTrackingSearchResultType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $PurportedSender;
 
@@ -73,7 +73,7 @@ class EWSType_FindMessageTrackingSearchResultType extends EWSType
      *
      * @since Exchange 2010 SP1
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $Sender;
 

@@ -12,8 +12,7 @@
 class EWSType_MailboxData extends EWSType
 {
     /**
-     * Represents the type of attendee identified in the Email
-     * (EmailAddressType) element.
+     * Represents the type of attendee identified in the Email property.
      *
      * This is used in requests for meeting suggestions.
      *
@@ -28,7 +27,7 @@ class EWSType_MailboxData extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $Email;
 

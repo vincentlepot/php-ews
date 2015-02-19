@@ -1,24 +1,24 @@
 <?php
 /**
- * Contains EWSType_SetItemFieldType.
+ * Contains \jamesiarmes\PEWS\Type\SetItemFieldType.
  */
+
+namespace jamesiarmes\PEWS\Type;
 
 /**
  * Represents an update to a single property of an item in an UpdateItem
  * operation.
  *
  * @package php-ews\Types
- *
- * @todo Extend EWSType_ItemChangeDescriptionType.
  */
-class EWSType_SetItemFieldType extends EWSType
+class SetItemFieldType extends ItemChangeDescriptionType
 {
     /**
      * Represents an Exchange calendar item to update.
      *
      * @since Exchange 2007
      *
-     * @var EWSType_CalendarItemType
+     * @var \jamesiarmes\PEWS\Type\CalendarItemType
      */
     public $CalendarItem;
 
@@ -27,7 +27,7 @@ class EWSType_SetItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ContactItemType
+     * @var \jamesiarmes\PEWS\Type\ContactItemType
      */
     public $Contact;
 
@@ -36,43 +36,16 @@ class EWSType_SetItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_DistributionListType
+     * @var \jamesiarmes\PEWS\Type\DistributionListType
      */
     public $DistributionList;
-
-    /**
-     * Identifies extended MAPI properties to set.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToExtendedFieldType
-     */
-    public $ExtendedFieldURI;
-
-    /**
-     * Identifies frequently referenced properties by URI.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToUnindexedFieldType
-     */
-    public $FieldURI;
-
-    /**
-     * Identifies individual members of a dictionary.
-     *
-     * @since Exchange 2007
-     *
-     * @var EWSType_PathToIndexedFieldType
-     */
-    public $IndexedFieldURI;
 
     /**
      * Represents an item in the Exchange store.
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemType
+     * @var \jamesiarmes\PEWS\Type\ItemType
      */
     public $Item;
 
@@ -117,7 +90,7 @@ class EWSType_SetItemFieldType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MessageType
+     * @var \jamesiarmes\PEWS\Type\MessageType
      */
     public $Message;
 

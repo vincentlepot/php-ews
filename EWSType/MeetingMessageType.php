@@ -1,21 +1,25 @@
 <?php
 /**
- * Contains EWSType_MeetingMessageType.
+ * Contains \jamesiarmes\PEWS\Type\MeetingMessageType.
  */
+
+namespace jamesiarmes\PEWS\Type;
+
+use \jamesiarmes\PEWS\Type;
 
 /**
  * Represents a meeting in the Exchange store.
  *
  * @package php-ews\Types
  */
-class EWSType_MeetingMessageType extends EWSType
+class MeetingMessageType extends Type
 {
     /**
      * Represents the calendar item that is associated with a MeetingMessage.
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $AssociatedCalendarItemId;
 
@@ -25,7 +29,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ArrayOfAttachmentsType
+     * @var \jamesiarmes\PEWS\Type\ArrayOfAttachmentsType
      */
     public $Attachments;
 
@@ -44,7 +48,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var \jamesiarmes\PEWS\Type\BodyType
      */
     public $Body;
 
@@ -73,7 +77,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ConversationId;
 
@@ -187,7 +191,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_EffectiveRightsType
+     * @var \jamesiarmes\PEWS\Type\EffectiveRightsType
      */
     public $EffectiveRights;
 
@@ -196,7 +200,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ExtendedPropertyType
+     * @var \jamesiarmes\PEWS\Type\ExtendedPropertyType
      */
     public $ExtendedProperty;
 
@@ -205,7 +209,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var \jamesiarmes\PEWS\Type\SingleRecipientType
      */
     public $From;
 
@@ -394,7 +398,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ItemId;
 
@@ -424,7 +428,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_MimeContentType
+     * @var \jamesiarmes\PEWS\Type\MimeContentType
      */
     public $MimeContent;
 
@@ -436,7 +440,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_FolderIdType
+     * @var \jamesiarmes\PEWS\Type\FolderIdType
      */
     public $ParentFolderId;
 
@@ -445,7 +449,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var \jamesiarmes\PEWS\Type\SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -454,7 +458,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var \jamesiarmes\PEWS\Type\SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -549,7 +553,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var \jamesiarmes\PEWS\Type\SingleRecipientType
      */
     public $Sender;
 
@@ -608,7 +612,7 @@ class EWSType_MeetingMessageType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_BodyType
+     * @var \jamesiarmes\PEWS\Type\BodyType
      */
     public $UniqueBody;
 

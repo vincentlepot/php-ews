@@ -17,7 +17,7 @@ class EWSType_GetRoomsType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $RoomList;
 }

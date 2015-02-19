@@ -1,16 +1,16 @@
 <?php
 /**
- * Contains EWSType_RelativeMonthlyRecurrencePatternType.
+ * Contains \jamesiarmes\PEWS\Type\RelativeMonthlyRecurrencePatternType.
  */
+
+namespace jamesiarmes\PEWS\Type;
 
 /**
  * Describes a relative monthly recurrence pattern.
  *
  * @package php-ews\Types
- *
- * @todo Extend EWSType_IntervalRecurrencePatternBaseType.
  */
-class EWSType_RelativeMonthlyRecurrencePatternType extends EWSType
+class RelativeMonthlyRecurrencePatternType extends IntervalRecurrencePatternBaseType
 {
     /**
      * Describes which week is used in a relative monthly recurrence pattern.
@@ -30,16 +30,4 @@ class EWSType_RelativeMonthlyRecurrencePatternType extends EWSType
      * @var \jamesiarmes\PEWS\Enumeration\DayOfWeekType
      */
     public $DaysOfWeek;
-
-    /**
-     * Defines the interval between two consecutive monthly recurring pattern
-     * items.
-     *
-     * The range for this value is 1 to 99.
-     *
-     * @since Exchange 2007
-     *
-     * @var integer
-     */
-    public $Interval;
 }

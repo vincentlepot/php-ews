@@ -25,7 +25,7 @@ class EWSType_SmartResponseBaseType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var \jamesiarmes\PEWS\Type\BodyType
      */
     public $Body;
 
@@ -44,7 +44,7 @@ class EWSType_SmartResponseBaseType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var \jamesiarmes\PEWS\Type\SingleRecipientType
      */
     public $From;
 
@@ -71,7 +71,7 @@ class EWSType_SmartResponseBaseType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ReferenceItemId;
 

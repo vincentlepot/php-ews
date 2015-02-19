@@ -26,7 +26,7 @@ class EWSType_CreateManagedFolderRequestType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $Mailbox;
 }

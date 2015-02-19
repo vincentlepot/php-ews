@@ -42,7 +42,7 @@ class EWSType_GetMessageTrackingReportRequestType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $RecipientFilter;
 

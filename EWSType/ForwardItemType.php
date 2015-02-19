@@ -27,7 +27,7 @@ class EWSType_ForwardItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var \jamesiarmes\PEWS\Type\BodyType
      */
     public $Body;
 
@@ -46,7 +46,7 @@ class EWSType_ForwardItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_SingleRecipientType
+     * @var \jamesiarmes\PEWS\Type\SingleRecipientType
      */
     public $From;
 
@@ -73,7 +73,7 @@ class EWSType_ForwardItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_BodyType
+     * @var \jamesiarmes\PEWS\Type\BodyType
      */
     public $NewBodyContent;
 
@@ -82,7 +82,7 @@ class EWSType_ForwardItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var \jamesiarmes\PEWS\Type\SingleRecipientType
      */
     public $ReceivedBy;
 
@@ -91,7 +91,7 @@ class EWSType_ForwardItemType extends EWSType
      *
      * @since Exchange 2007 SP1
      *
-     * @var EWSType_SingleRecipientType
+     * @var \jamesiarmes\PEWS\Type\SingleRecipientType
      */
     public $ReceivedRepresenting;
 
@@ -100,7 +100,7 @@ class EWSType_ForwardItemType extends EWSType
      *
      * @since Exchange 2007
      *
-     * @var EWSType_ItemIdType
+     * @var \jamesiarmes\PEWS\Type\ItemIdType
      */
     public $ReferenceItemId;
 

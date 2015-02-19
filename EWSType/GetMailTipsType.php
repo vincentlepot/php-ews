@@ -35,7 +35,7 @@ class EWSType_GetMailTipsType extends EWSType
      *
      * @since Exchange 2010
      *
-     * @var EWSType_EmailAddressType
+     * @var \jamesiarmes\PEWS\Type\EmailAddressType
      */
     public $SendingAs;
 }
