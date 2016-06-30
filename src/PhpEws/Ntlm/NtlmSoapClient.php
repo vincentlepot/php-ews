@@ -49,6 +49,7 @@ class NtlmSoapClient extends \SoapClient
             'User-Agent: PHP-SOAP-CURL',
             'Content-Type: text/xml; charset=utf-8',
             'SOAPAction: "'.$action.'"',
+            'Expect:',
         );
 
         $this->__last_request_headers = $headers;
